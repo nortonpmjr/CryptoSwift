@@ -274,7 +274,7 @@
 		754BE46719693E190098E6F3 /* DigestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestTests.swift; sourceTree = "<group>"; };
 		755D27BC1D06DE6400C41692 /* CryptoSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CryptoSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		755FB1D9199E347D00475437 /* ExtensionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsTest.swift; sourceTree = "<group>"; };
-		7564F0602072EAEB00CA5A96 /* TestsPerformanceDevice.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsPerformanceDevice.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7564F0602072EAEB00CA5A96 /* TestsPerformanceDevice.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestsPerformanceDevice.xctest; path = "TestsPerformance-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		756BFDCA1A82B87300B9D9A4 /* Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
 		7576F64C20725BD5006688F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7576F6EB20726319006688F8 /* DigestTestsPerf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestTestsPerf.swift; sourceTree = "<group>"; };
@@ -1115,6 +1115,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HA4H7JURM8;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1124,6 +1125,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HA4H7JURM8;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1202,6 +1204,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HA4H7JURM8;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Test;
 		};
